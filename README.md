@@ -1,3 +1,12 @@
-My Professional Portfolio
+<div align="center">
 
-Can be accessed at jordano700.github.io/jordanortona
+# My Professional Portfolio
+
+Explore it here → **https://jordano700.github.io/jordanortona/**
+
+</div>
+
+---
+
+License
+- MIT
