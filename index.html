@@ -53,42 +53,7 @@
           </div>
           <div class="hero__visual" aria-hidden="true">
             <div class="orb"></div>
-            <svg class="neural-net" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <defs>
-                <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-                  <feGaussianBlur stdDeviation="8" result="blur" />
-                  <feMerge>
-                    <feMergeNode in="blur" />
-                    <feMergeNode in="SourceGraphic" />
-                  </feMerge>
-                </filter>
-              </defs>
-              <!-- Edges -->
-              <g class="edges" stroke-linecap="round">
-                <line x1="90" y1="140" x2="210" y2="220" />
-                <line x1="210" y1="220" x2="340" y2="180" />
-                <line x1="210" y1="220" x2="310" y2="300" />
-                <line x1="90" y1="140" x2="180" y2="340" />
-                <line x1="340" y1="180" x2="470" y2="250" />
-                <line x1="310" y1="300" x2="470" y2="250" />
-                <line x1="310" y1="300" x2="420" y2="380" />
-                <line x1="180" y1="340" x2="310" y2="300" />
-                <line x1="180" y1="340" x2="260" y2="430" />
-                <line x1="420" y1="380" x2="520" y2="460" />
-              </g>
-              <!-- Nodes -->
-              <g class="nodes" filter="url(#softGlow)">
-                <circle cx="90" cy="140" r="8" />
-                <circle cx="210" cy="220" r="9" />
-                <circle cx="340" cy="180" r="7" />
-                <circle cx="310" cy="300" r="9" />
-                <circle cx="470" cy="250" r="8" />
-                <circle cx="420" cy="380" r="8" />
-                <circle cx="180" cy="340" r="8" />
-                <circle cx="260" cy="430" r="7" />
-                <circle cx="520" cy="460" r="7" />
-              </g>
-            </svg>
+            <canvas class="net-canvas" width="600" height="600"></canvas>
           </div>
         </div>
       </section>
@@ -101,10 +66,13 @@
           <div class="about__copy">
             <h2>About Me</h2>
             <p>
-              I'm Jordan Ortona, a computational biologist specializing in proteomics and AI-driven discovery. I work across multi-omics datasets, algorithm design, and translational research to uncover new therapeutic possibilities.
+              I am a computational biologist specializing in artificial intelligence for proteomics. My work focuses on developing machine learning models to enhance peptide identification in high-throughput LC-MS/MS, bridging AI, bioinformatics, and molecular medicine.
             </p>
             <p>
-              My experience spans academic labs and biotech teams, where I build robust data pipelines, craft intuitive visualizations, and collaborate with scientists to validate insights in the wet lab.
+              My academic path reflects this evolution: a B.Sc. in Microbiology &amp; Immunology (McGill University), a Graduate Certificate in Clinical Bioinformatics (Humber College), and now a Master’s in Molecular Medicine (Université Laval), where I apply AI-driven approaches to tackle complex biological data challenges.
+            </p>
+            <p>
+              I am passionate about leveraging artificial intelligence to transform biomedical research and healthcare, and I am open to opportunities in AI for bioinformatics, data science, and computational biology to help advance the biotechnology revolution.
             </p>
             <a class="btn btn--primary" href="assets/Jordan_Ortona_CV.pdf" download>Download CV</a>
           </div>
@@ -115,7 +83,7 @@
         <div class="container">
           <div class="section__heading">
             <h2>Selected Work</h2>
-            <p>Highlights from cross-disciplinary projects combining machine learning, proteomics, and systems biology.</p>
+            <p>Highlights from my personal projects.</p>
           </div>
           <div class="projects__grid">
             <article class="project-card">
