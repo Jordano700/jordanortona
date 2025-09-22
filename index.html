@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website for Jordan Ortona, Computational Biologist with a focus on AI and Proteomics." />
+    <title>Jordan Ortona | Computational Biologist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="container header-container">
+        <div class="brand">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <a class="brand__name" href="#hero">Jordan Ortona</a>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="nav-toggle__label">Menu</span>
+          <span class="nav-toggle__icon" aria-hidden="true"></span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/Jordan_Ortona_CV.pdf" download>CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero__content">
+          <div class="hero__copy">
+            <p class="eyebrow">Computational Biologist | AI &amp; Proteomics</p>
+            <h1>Transforming complex biological data into actionable insights.</h1>
+            <p class="lead">
+              I build intelligent tools that bridge molecular science and machine learning to accelerate discovery in human health.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">Explore Projects</a>
+              <a class="btn btn--ghost" href="#contact">Let's Collaborate</a>
+            </div>
+          </div>
+          <div class="hero__visual" aria-hidden="true">
+            <div class="orb"></div>
+            <div class="mesh"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container about__grid">
+          <div class="about__image" aria-hidden="true">
+            <img src="assets/profile-placeholder.svg" alt="" />
+          </div>
+          <div class="about__copy">
+            <h2>About Me</h2>
+            <p>
+              I'm Jordan Ortona, a computational biologist specializing in proteomics and AI-driven discovery. I work across multi-omics datasets, algorithm design, and translational research to uncover new therapeutic possibilities.
+            </p>
+            <p>
+              My experience spans academic labs and biotech teams, where I build robust data pipelines, craft intuitive visualizations, and collaborate with scientists to validate insights in the wet lab.
+            </p>
+            <a class="btn btn--primary" href="assets/Jordan_Ortona_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section__heading">
+            <h2>Selected Work</h2>
+            <p>Highlights from cross-disciplinary projects combining machine learning, proteomics, and systems biology.</p>
+          </div>
+          <div class="projects__grid">
+            <article class="project-card">
+              <div class="project-card__body">
+                <p class="project-card__tag">Proteomics</p>
+                <h3>Deep Proteome Atlas</h3>
+                <p>
+                  Integrated mass-spec pipelines and deep learning models to map proteomic changes across disease progression.
+                </p>
+              </div>
+              <a class="project-card__link" href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__body">
+                <p class="project-card__tag">AI</p>
+                <h3>Structure-Aware Models</h3>
+                <p>
+                  Developed graph neural networks that predict protein-ligand interactions with state-of-the-art accuracy.
+                </p>
+              </div>
+              <a class="project-card__link" href="https://github.com/" target="_blank" rel="noopener">Read the Paper</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__body">
+                <p class="project-card__tag">Data Viz</p>
+                <h3>Omics Dashboards</h3>
+                <p>
+                  Built interactive dashboards that surface biomarker signatures and support fast hypothesis testing for research teams.
+                </p>
+              </div>
+              <a class="project-card__link" href="https://github.com/" target="_blank" rel="noopener">Explore Project</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact__inner">
+          <div>
+            <h2>Let's Connect</h2>
+            <p>
+              I'm always open to discussing new collaborations, data challenges, or research opportunities. Reach out through any of the platforms below.
+            </p>
+          </div>
+          <div class="socials">
+            <a class="socials__link" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.45 20.45h-3.56v-5.56c0-1.33-.03-3.05-1.86-3.05-1.87 0-2.15 1.46-2.15 2.95v5.66H9.32V9h3.42v1.56h.05c.48-.9 1.66-1.86 3.43-1.86 3.67 0 4.35 2.42 4.35 5.57v6.18ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.57V9h3.55v11.45Z" />
+              </svg>
+            </a>
+            <a class="socials__link" href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.2-3.37-1.2-.45-1.13-1.1-1.44-1.1-1.44-.9-.62.07-.6.07-.6 1 .08 1.54 1.03 1.54 1.03.88 1.53 2.3 1.09 2.86.83.09-.64.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.96 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.28.1-2.67 0 0 .84-.27 2.76 1.02a9.5 9.5 0 0 1 5.02 0c1.92-1.29 2.76-1.02 2.76-1.02.55 1.39.2 2.42.1 2.67.64.7 1.03 1.59 1.03 2.69 0 3.86-2.34 4.7-4.57 4.95.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" />
+              </svg>
+            </a>
+            <a class="socials__link" href="mailto:jordan.ortona@example.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.5 4h-17A1.5 1.5 0 0 0 2 5.5v13A1.5 1.5 0 0 0 3.5 20h17a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 20.5 4Zm-.3 2L12 11.76 3.8 6h16.4ZM4 18v-9.2l7.6 4.93a.75.75 0 0 0 .8 0L20 8.8V18H4Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__layout">
+        <p>&copy; <span id="current-year"></span> Jordan Ortona. All rights reserved.</p>
+        <a class="footer__link" href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
