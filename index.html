@@ -22,16 +22,17 @@
           <span class="brand__dot" aria-hidden="true"></span>
           <a class="brand__name" href="#hero">Jordan Ortona</a>
         </div>
+        <button class="lang-toggle" aria-label="Switch to French">FR</button>
         <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
-          <span class="nav-toggle__label">Menu</span>
+          <span class="nav-toggle__label" data-i18n="nav.menu">Menu</span>
           <span class="nav-toggle__icon" aria-hidden="true"></span>
         </button>
         <nav class="primary-navigation" id="primary-navigation">
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="assets/Jordan_Ortona_CV.pdf" download>CV</a></li>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li><a href="assets/Jordan_Ortona_CV.pdf" download data-i18n="nav.cv">CV</a></li>
           </ul>
         </nav>
       </div>
@@ -41,14 +42,14 @@
       <section class="hero" id="hero">
         <div class="container hero__content">
           <div class="hero__copy">
-            <p class="eyebrow">Computational Biologist | AI &amp; Proteomics</p>
-            <h1>Transforming complex biological data into actionable insights.</h1>
-            <p class="lead">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Computational Biologist | AI &amp; Proteomics</p>
+            <h1 data-i18n="hero.title">Transforming complex biological data into actionable insights.</h1>
+            <p class="lead" data-i18n="hero.lead">
               I build intelligent tools that bridge molecular science and machine learning/deep learning to accelerate discovery in human health.
             </p>
             <div class="hero__actions">
-              <a class="btn btn--primary" href="#projects">Explore Projects</a>
-              <a class="btn btn--ghost" href="#contact">Let's Collaborate</a>
+              <a class="btn btn--primary" href="#projects" data-i18n="hero.cta.projects">Explore Projects</a>
+              <a class="btn btn--ghost" href="#contact" data-i18n="hero.cta.contact">Let's Collaborate</a>
             </div>
           </div>
           <div class="hero__visual" aria-hidden="true">
@@ -64,17 +65,17 @@
             <img src="assets/profile.jpg" alt="Portrait of Jordan Ortona" />
           </div>
           <div class="about__copy">
-            <h2>About Me</h2>
-            <p>
+            <h2 data-i18n="about.title">About Me</h2>
+            <p data-i18n="about.p1">
               I am a computational biologist specializing in artificial intelligence for proteomics. My work focuses on developing machine learning models to enhance peptide identification in high-throughput LC-MS/MS, bridging AI, bioinformatics, and molecular medicine.
             </p>
-            <p>
-              My academic path reflects this evolution: a B.Sc. in Microbiology &amp; Immunology (McGill University), a Graduate Certificate in Clinical Bioinformatics (Humber College), and now a Master’s in Molecular Medicine (Université Laval), where I apply AI-driven approaches to tackle complex biological data challenges.
+            <p data-i18n="about.p2">
+              My academic path reflects this evolution: a B.Sc. in Microbiology &amp; Immunology (McGill University), a Graduate Certificate in Clinical Bioinformatics (Humber College), and now a Master's in Molecular Medicine (Université Laval), where I apply AI-driven approaches to tackle complex biological data challenges.
             </p>
-            <p>
+            <p data-i18n="about.p3">
               I am passionate about leveraging artificial intelligence to transform biomedical research and healthcare, and I am open to opportunities in AI for bioinformatics, data science, and computational biology to help advance the biotechnology revolution.
             </p>
-            <a class="btn btn--primary" href="assets/Jordan_Ortona_CV.pdf" download>Download CV</a>
+            <a class="btn btn--primary" href="assets/Jordan_Ortona_CV.pdf" download data-i18n="about.cta">Download CV</a>
           </div>
         </div>
       </section>
@@ -82,19 +83,19 @@
       <section class="section projects" id="projects">
         <div class="container">
           <div class="section__heading">
-            <h2>Selected Work</h2>
-            <p>Current research integrating AI with high-throughput proteomics.</p>
+            <h2 data-i18n="projects.title">Selected Work</h2>
+            <p data-i18n="projects.subtitle">Current research integrating AI with high-throughput proteomics.</p>
           </div>
           <div class="projects__grid">
             <article class="project-card">
               <div class="project-card__body">
-                <p class="project-card__tag">AI · Proteomics</p>
-                <h3>PeptiDIA</h3>
-                <p>
+                <p class="project-card__tag" data-i18n="projects.peptdia.tag">AI · Proteomics</p>
+                <h3 data-i18n="projects.peptdia.title">PeptiDIA</h3>
+                <p data-i18n="projects.peptdia.desc">
                   Ongoing research project using machine learning to improve peptide identification in fast LC–MS/MS (DIA) workflows.
                 </p>
               </div>
-              <a class="project-card__link" href="https://github.com/Jordano700/PeptiDIA" target="_blank" rel="noopener">View on GitHub</a>
+              <a class="project-card__link" href="https://github.com/Jordano700/PeptiDIA" target="_blank" rel="noopener" data-i18n="projects.peptdia.link">View on GitHub</a>
             </article>
           </div>
         </div>
@@ -103,8 +104,8 @@
       <section class="section contact" id="contact">
         <div class="container contact__inner">
           <div>
-            <h2>Let's Connect</h2>
-            <p>
+            <h2 data-i18n="contact.title">Let's Connect</h2>
+            <p data-i18n="contact.desc">
               I'm always open to discussing new collaborations, data challenges, or research opportunities. Reach out through any of the platforms below.
             </p>
           </div>
@@ -131,8 +132,8 @@
 
     <footer class="site-footer">
       <div class="container footer__layout">
-        <p>&copy; <span id="current-year"></span> Jordan Ortona. All rights reserved.</p>
-        <a class="footer__link" href="#top">Back to top</a>
+        <p>&copy; <span id="current-year"></span> Jordan Ortona. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <a class="footer__link" href="#top" data-i18n="footer.backtop">Back to top</a>
       </div>
     </footer>
   </body>

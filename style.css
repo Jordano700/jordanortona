@@ -137,6 +137,25 @@ ul {
   transform: scaleX(1);
 }
 
+.lang-toggle {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  margin-left: auto;
+}
+
+.lang-toggle:hover,
+.lang-toggle:focus-visible {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
 .nav-toggle {
   display: none;
   border: 1px solid var(--color-border);
@@ -493,6 +512,10 @@ body.nav-open .nav-toggle[aria-expanded='true'] .nav-toggle__icon::after {
 }
 
 @media (max-width: 780px) {
+  .lang-toggle {
+    margin-left: 0;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
