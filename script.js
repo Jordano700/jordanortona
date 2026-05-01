@@ -153,7 +153,7 @@ const translations = {
 
     // About
     'about.title': 'About Me',
-    'about.p1': 'I am a computational biologist specializing in artificial intelligence for proteomics. My work focuses on developing machine learning models to enhance peptide identification in high-throughput LC-MS/MS, bridging AI, bioinformatics, and molecular medicine.',
+    'about.p1': 'I am a computational biologist specializing in artificial intelligence for molecular medicine. My work focuses on developing artificial intelligence models for molecular medicine tasks, bridging AI, bioinformatics, and biomedical research.',
     'about.p2': 'My academic path reflects this evolution: a B.Sc. in Microbiology & Immunology (McGill University), a Graduate Certificate in Clinical Bioinformatics (Humber College), and a Master\'s and now PhD in Molecular Medicine (Université Laval), where I apply AI-driven approaches to tackle complex biological data challenges.',
     'about.p3': 'I am passionate about leveraging artificial intelligence to transform biomedical research and healthcare, and I am open to opportunities in AI for bioinformatics, data science, and computational biology to help advance the biotechnology revolution.',
     'about.cta': 'Download CV',
@@ -195,7 +195,7 @@ const translations = {
 
     // About
     'about.title': 'À Propos de Moi',
-    'about.p1': 'Je suis un biologiste computationnel spécialisé en intelligence artificielle pour la protéomique. Mon travail se concentre sur le développement de modèles d\'apprentissage automatique pour améliorer l\'identification des peptides en LC-MS/MS à haut débit, reliant l\'IA, la bioinformatique et la médecine moléculaire.',
+    'about.p1': 'Je suis un biologiste computationnel spécialisé en intelligence artificielle pour la médecine moléculaire. Mon travail se concentre sur le développement de modèles d\'intelligence artificielle pour des tâches en médecine moléculaire, reliant l\'IA, la bioinformatique et la recherche biomédicale.',
     'about.p2': 'Mon parcours académique reflète cette évolution : un B.Sc. en Microbiologie et Immunologie (Université McGill), un Certificat d\'études supérieures en Bioinformatique Clinique (Collège Humber), une Maîtrise et maintenant un Doctorat en Médecine Moléculaire (Université Laval), où j\'applique des approches basées sur l\'IA pour relever des défis complexes de données biologiques.',
     'about.p3': 'Je suis passionné par l\'exploitation de l\'intelligence artificielle pour transformer la recherche biomédicale et les soins de santé, et je suis ouvert aux opportunités en IA pour la bioinformatique, la science des données et la biologie computationnelle pour contribuer à la révolution biotechnologique.',
     'about.cta': 'Télécharger le CV',
