@@ -401,6 +401,13 @@ body.nav-open .nav-toggle[aria-expanded='true'] .nav-toggle__icon::after {
   transform: translate(3px, -2px);
 }
 
+.project-card__status {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  letter-spacing: 0.04em;
+}
+
 .contact__inner {
   display: flex;
   flex-wrap: wrap;
